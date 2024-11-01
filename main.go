@@ -14,7 +14,7 @@ import (
 
 func main() {
 	fileName := "data/table3.txt"
-	minUtility := 40.0
+	minUtility := 25.0
 
 	// Đo thời gian bắt đầu
 	startTime := time.Now()

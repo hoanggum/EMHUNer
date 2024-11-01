@@ -72,8 +72,8 @@ func (e *EMHUN) Run() {
 	fmt.Println("\nCalculating RSU for each item in Secondary(X)...")
 	utility.CalculateRSUForAllItems(e.ItemTransactionMap, e.SortedSecondary, e.UtilityArray)
 	e.UtilityArray.PrintUtilityArray()
-	// e.identifyPrimaryItems()
-	// fmt.Println("Primary: %d", e.PrimaryItems)
+	e.identifyPrimaryItems()
+	fmt.Println("Primary: %d", e.PrimaryItems)
 	// fmt.Println("\nStarting HUI Search...")
 	// e.SearchAlgorithms.Search(e.SortedEta, make(map[int]bool), e.Transactions, e.PrimaryItems, e.SortedSecondary, e.MinUtility)
 
@@ -396,6 +396,7 @@ func (e *EMHUN) sortItemsByRTWU(items []int) []int {
 	return items
 }
 
+// Giữ nguyen
 func (e *EMHUN) identifyPrimaryItems() {
 	for _, item := range e.SortedSecondary {
 		if e.UtilityArray.GetRSU(item) >= e.MinUtility {
