@@ -136,17 +136,39 @@ func CalculateRTUForTransaction(transaction *models.Transaction) float64 {
 	return rtwu
 }
 
-func CalculateRSUForAllItems(transactions []*models.Transaction, secondary []int, utilityArray *models.UtilityArray) {
+//Hàm cũ
+// func CalculateRSUForAllItems(transactions []*models.Transaction, secondary []int, utilityArray *models.UtilityArray) {
+// 	for _, item := range secondary {
+// 		totalRSU := 0.0
+
+// 		for _, transaction := range transactions {
+// 			if ContainsItem(transaction, item) {
+// 				index := GetItemIndex(transaction, item)
+// 				itemUtility := transaction.Utilities[index]
+// 				remainingUtility := CalculateRemainingUtility(transaction, index+1)
+// 				totalRSU += itemUtility + remainingUtility
+// 			}
+// 		}
+
+//			utilityArray.SetRSU(item, totalRSU)
+//		}
+//	}
+//
+// Hàm mới
+func CalculateRSUForAllItems(itemTransactionMap map[int][]*models.Transaction, secondary []int, utilityArray *models.UtilityArray) {
 	for _, item := range secondary {
 		totalRSU := 0.0
 
-		for _, transaction := range transactions {
-			if ContainsItem(transaction, item) {
-				index := GetItemIndex(transaction, item)
-				itemUtility := transaction.Utilities[index]
-				remainingUtility := CalculateRemainingUtility(transaction, index+1)
-				totalRSU += itemUtility + remainingUtility
-			}
+		transactionsWithItem, exists := itemTransactionMap[item]
+		if !exists {
+			continue
+		}
+
+		for _, transaction := range transactionsWithItem {
+			index := GetItemIndex(transaction, item)
+			itemUtility := transaction.Utilities[index]
+			remainingUtility := CalculateRemainingUtility(transaction, index+1)
+			totalRSU += itemUtility + remainingUtility
 		}
 
 		utilityArray.SetRSU(item, totalRSU)
