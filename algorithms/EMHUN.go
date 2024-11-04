@@ -40,48 +40,38 @@ func (e *EMHUN) Run() {
 	e.ClassifyItems()
 
 	// In ra nội dung của ItemTransactionMap
-	e.PrintItemTransactionMap()
 	fmt.Println("\nAfter classify, we have:")
 	e.printClassification()
 	combinedSet := e.unionKeys(e.Rho, e.Delta)
 	fmt.Println("\nCalculating RTWU for all items in (ρ ∪ δ):")
 	utility.CalculateRTWUForAllItems(e.ItemTransactionMap, combinedSet, e.Eta, e.UtilityArray)
-	e.UtilityArray.PrintUtilityArray()
 
 	secondaryItems := e.getSecondaryItems(combinedSet, e.UtilityArray, e.MinUtility)
 
 	e.SortedSecondary = e.sortItems(secondaryItems)
 	e.SortedEta = e.sortItems(e.keys(e.Eta))
-	fmt.Printf("\nSorted Secondary Items: %v\n", e.SortedSecondary)
-	fmt.Printf("Sorted Eta Items: %v\n", e.SortedEta)
 
 	// e.FilterTransactions(secondaryItemsMap, e.Eta)
-	e.RemoveUnwantedItemsInTransactionsAndMap()
-	e.PrintItemTransactionMap()
+	e.RemoveUnwantedItemsInTransactionMap()
 
 	e.SortItemsInTransactionsAndMap()
-	e.PrintTransactions()
-	e.PrintItemTransactionMap()
 
 	fmt.Println("\nSorting transactions by total RTWU:")
 	e.SortTransactionsByTWU()
-	fmt.Println("\nTransactions after sorting by RTWU:")
-	e.PrintTransactions()
-	e.PrintItemTransactionMap()
+	// fmt.Println("\nTransactions after sorting by RTWU:")
 
 	fmt.Println("\nCalculating RSU for each item in Secondary(X)...")
 	utility.CalculateRSUForAllItems(e.ItemTransactionMap, e.SortedSecondary, e.UtilityArray)
-	e.UtilityArray.PrintUtilityArray()
 	e.identifyPrimaryItems()
-	fmt.Println("Primary: %d", e.PrimaryItems)
-	// fmt.Println("\nStarting HUI Search...")
-	// e.SearchAlgorithms.Search(e.SortedEta, make(map[int]bool), e.Transactions, e.PrimaryItems, e.SortedSecondary, e.MinUtility)
+	fmt.Println("Primary: ", e.PrimaryItems)
+	fmt.Println("\nStarting HUI Search...")
+	e.SearchAlgorithms.Search(e.SortedEta, make(map[int]bool), e.ItemTransactionMap, e.PrimaryItems, e.SortedSecondary, e.MinUtility)
 
-	// // In kết quả sau khi tìm High Utility Itemsets
-	// fmt.Println("\nHUIs Found:")
-	// for _, hui := range e.SearchAlgorithms.HighUtilityItemsets {
-	// 	fmt.Printf("Itemset: %v, Utility: %.2f\n", hui.Itemset, hui.Utility)
-	// }
+	// In kết quả sau khi tìm High Utility Itemsets
+	fmt.Println("\nHUIs Found:")
+	for _, hui := range e.SearchAlgorithms.HighUtilityItemsets {
+		fmt.Printf("Itemset: %v, Utility: %.2f\n", hui.Itemset, hui.Utility)
+	}
 }
 func (e *EMHUN) PrintItemTransactionMap() {
 	fmt.Println("ItemTransactionMap:")
@@ -150,9 +140,9 @@ func (e *EMHUN) printClassification() {
 	sort.Ints(deltaItems)
 	sort.Ints(etaItems)
 
-	fmt.Println("Items with positive utility only (ρ):", rhoItems)
-	fmt.Println("Items with both positive and negative utility (δ):", deltaItems)
-	fmt.Println("Items with negative utility only (η):", etaItems)
+	// fmt.Println("Items with positive utility only (ρ):", rhoItems)
+	// fmt.Println("Items with both positive and negative utility (δ):", deltaItems)
+	// fmt.Println("Items with negative utility only (η):", etaItems)
 }
 
 func (e *EMHUN) getSecondaryItems(combinedSet map[int]bool, utilityArray *models.UtilityArray, minU float64) []int {
@@ -243,6 +233,37 @@ func (e *EMHUN) RemoveUnwantedItemsInTransactionsAndMap() {
 		}
 	}
 }
+func (e *EMHUN) RemoveUnwantedItemsInTransactionMap() {
+	// Chuyển đổi `SortedSecondary` và `SortedEta` thành map để dễ dàng tra cứu
+	secondaryItemsMap := convertSliceToMap(e.SortedSecondary)
+	etaItemsMap := convertSliceToMap(e.SortedEta)
+
+	// Duyệt qua từng mục trong `ItemTransactionMap`
+	for item, transactions := range e.ItemTransactionMap {
+		// Nếu mục không nằm trong hợp của `SortedSecondary` và `SortedEta`, xóa toàn bộ giao dịch
+		if !secondaryItemsMap[item] && !etaItemsMap[item] {
+			delete(e.ItemTransactionMap, item)
+			continue
+		}
+
+		// Ngược lại, duyệt qua các giao dịch và loại bỏ các giao dịch không cần thiết
+		for _, transaction := range transactions {
+			// Kiểm tra nếu giao dịch chứa bất kỳ mục nào trong `SortedSecondary` hoặc `SortedEta`
+			if !containsAny(transaction.Items, secondaryItemsMap, etaItemsMap) {
+				// Sử dụng hàm `removeItemFromTransactionMap` để loại bỏ giao dịch không mong muốn
+				e.removeItemFromTransactionMap(item, transaction)
+			}
+		}
+	}
+}
+func containsAny(items []int, secondaryItemsMap, etaItemsMap map[int]bool) bool {
+	for _, item := range items {
+		if secondaryItemsMap[item] || etaItemsMap[item] {
+			return true
+		}
+	}
+	return false
+}
 
 // Hàm bổ sung để loại bỏ `item` khỏi một giao dịch cụ thể trong `ItemTransactionMap`
 func (e *EMHUN) removeItemFromTransactionMap(item int, transaction *models.Transaction) {
@@ -298,10 +319,6 @@ func (e *EMHUN) removeItemFromTransactionMap(item int, transaction *models.Trans
 //
 // Hàm sửa
 func (e *EMHUN) SortItemsInTransactionsAndMap() {
-	// Sắp xếp các phần tử trong `Transactions`
-	for _, transaction := range e.Transactions {
-		e.sortTransactionItems(transaction)
-	}
 
 	// Sắp xếp các phần tử trong `ItemTransactionMap`
 	for _, transactions := range e.ItemTransactionMap {
@@ -368,16 +385,16 @@ func (e *EMHUN) sortTransactionItems(transaction *models.Transaction) {
 func (e *EMHUN) SortTransactionsByTWU() {
 	fmt.Println("\nSorting transactions by total RTWU of items...")
 
-	sort.Slice(e.Transactions, func(i, j int) bool {
-		tuI := utility.CalculateTransactionUtility(e.Transactions[i])
-		tuJ := utility.CalculateTransactionUtility(e.Transactions[j])
+	// sort.Slice(e.Transactions, func(i, j int) bool {
+	// 	tuI := utility.CalculateTransactionUtility(e.Transactions[i])
+	// 	tuJ := utility.CalculateTransactionUtility(e.Transactions[j])
 
-		// Sắp xếp tăng dần theo tổng RLU
-		return tuI < tuJ
-	})
+	// 	// Sắp xếp tăng dần theo tổng RLU
+	// 	return tuI < tuJ
+	// })
 
 	// Sắp xếp các giao dịch trong `ItemTransactionMap` theo tổng RLU
-	for item, transactions := range e.ItemTransactionMap {
+	for _, transactions := range e.ItemTransactionMap {
 		sort.Slice(transactions, func(i, j int) bool {
 			tuI := utility.CalculateTransactionUtility(transactions[i])
 			tuJ := utility.CalculateTransactionUtility(transactions[j])
@@ -385,7 +402,6 @@ func (e *EMHUN) SortTransactionsByTWU() {
 			// Sắp xếp tăng dần theo tổng RLU
 			return tuI < tuJ
 		})
-		fmt.Printf("Transactions sorted by RTWU for item %d\n", item)
 	}
 }
 
