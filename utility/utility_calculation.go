@@ -165,10 +165,12 @@ func CalculateRSUForAllItems(itemTransactionMap map[int][]*models.Transaction, s
 		}
 
 		for _, transaction := range transactionsWithItem {
-			index := GetItemIndex(transaction, item)
-			itemUtility := transaction.Utilities[index]
-			remainingUtility := CalculateRemainingUtility(transaction, index+1)
-			totalRSU += itemUtility + remainingUtility
+			if ContainsItem(transaction, item) {
+				index := GetItemIndex(transaction, item)
+				itemUtility := transaction.Utilities[index]
+				remainingUtility := CalculateRemainingUtility(transaction, index+1)
+				totalRSU += itemUtility + remainingUtility
+			}
 		}
 
 		utilityArray.SetRSU(item, totalRSU)
@@ -185,41 +187,119 @@ func CalculateRemainingUtility(transaction *models.Transaction, startIndex int) 
 	return remainingUtility
 }
 
-func CalculateRSUForAllItem(transactions []*models.Transaction, X []int, secondary []int, utilityArray *models.UtilityArray) {
+// func CalculateRSUForAllItem(transactions []*models.Transaction, X []int, secondary []int, utilityArray *models.UtilityArray) {
+// 	for _, item := range secondary {
+// 		totalRSU := 0.0
+
+// 		for _, transaction := range transactions {
+// 			if ContainsAllItems(transaction, X) && ContainsItem(transaction, item) {
+// 				utilityX := CalculateUtilityForSet(transaction, X)
+// 				indexZ := GetItemIndex(transaction, item)
+// 				utilityZ := transaction.Utilities[indexZ]
+// 				rru := CalculateRemainingUtility(transaction, indexZ+1)
+// 				totalRSU += utilityX + utilityZ + rru
+// 			}
+// 		}
+
+//			utilityArray.SetRSU(item, totalRSU)
+//		}
+//	}
+//
+// Hàm mới
+func CalculateRSUForAllItem(projectedItemTransactionMap map[int][]*models.Transaction, X []int, secondary []int, utilityArray *models.UtilityArray) {
 	for _, item := range secondary {
 		totalRSU := 0.0
+		foundInAnyTransaction := false
 
-		for _, transaction := range transactions {
-			if ContainsAllItems(transaction, X) && ContainsItem(transaction, item) {
-				utilityX := CalculateUtilityForSet(transaction, X)
-				indexZ := GetItemIndex(transaction, item)
-				utilityZ := transaction.Utilities[indexZ]
-				rru := CalculateRemainingUtility(transaction, indexZ+1)
-				totalRSU += utilityX + utilityZ + rru
+		// fmt.Printf("\nTính RSU cho item %d:\n", item)
+
+		// Duyệt qua tất cả các giao dịch trong `projectedItemTransactionMap`
+		for _, transactions := range projectedItemTransactionMap {
+			for _, transaction := range transactions {
+				// Kiểm tra nếu transaction chứa tất cả các item trong X và item hiện tại
+				if ContainsAllItems(transaction, X) && ContainsItem(transaction, item) {
+					foundInAnyTransaction = true // Đánh dấu item có trong ít nhất một giao dịch
+
+					// Tính toán các giá trị cần thiết
+					utilityX := CalculateUtilityForSet(transaction, X)
+					indexZ := GetItemIndex(transaction, item)
+					utilityZ := transaction.Utilities[indexZ]
+					remainingUtility := CalculateRemainingUtility(transaction, indexZ+1)
+
+					// Cộng tổng RSU tạm thời cho item hiện tại
+					totalRSU += utilityX + utilityZ + remainingUtility
+					// fmt.Printf("    Utility(X): %.2f, Utility(%d): %.2f, Remaining Utility: %.2f, RSU Tổng Tạm Thời: %.2f\n", utilityX, item, utilityZ, remainingUtility, totalRSU)
+				}
 			}
 		}
 
+		// Nếu item không có trong bất kỳ giao dịch nào của `projectedItemTransactionMap`, bỏ qua tính toán
+		if !foundInAnyTransaction {
+			// fmt.Printf("Item %d không có trong bất kỳ giao dịch nào của projectedItemTransactionMap.\n", item)
+			continue
+		}
+
+		// Cập nhật RSU cho item trong utilityArray
 		utilityArray.SetRSU(item, totalRSU)
+		// fmt.Printf("RSU(%d) = %.2f\n", item, totalRSU)
 	}
 }
 
-func CalculateRLUForAllItem(transactions []*models.Transaction, X []int, secondary []int, utilityArray *models.UtilityArray) {
+// func CalculateRLUForAllItem(transactions []*models.Transaction, X []int, secondary []int, utilityArray *models.UtilityArray) {
+// 	for _, item := range secondary {
+// 		totalRLU := 0.0
+
+// 		for _, transaction := range transactions {
+// 			if ContainsAllItems(transaction, X) && ContainsItem(transaction, item) {
+// 				utilityX := CalculateUtilityForSet(transaction, X)
+// 				maxIndexX := FindLocationMaxIndexForSet(transaction, X)
+// 				index := GetItemIndex(transaction, maxIndexX)
+
+// 				remainingUtility := CalculateRemainingUtility(transaction, index+1)
+
+// 				totalRLU += utilityX + remainingUtility
+// 			}
+// 		}
+
+//			utilityArray.SetRLU(item, totalRLU)
+//		}
+//	}
+func CalculateRLUForAllItem(projectedItemTransactionMap map[int][]*models.Transaction, X []int, secondary []int, utilityArray *models.UtilityArray) {
 	for _, item := range secondary {
 		totalRLU := 0.0
+		foundInAnyTransaction := false
 
-		for _, transaction := range transactions {
-			if ContainsAllItems(transaction, X) && ContainsItem(transaction, item) {
-				utilityX := CalculateUtilityForSet(transaction, X)
-				maxIndexX := FindLocationMaxIndexForSet(transaction, X)
-				index := GetItemIndex(transaction, maxIndexX)
+		// fmt.Printf("\nTính RLU cho item %d:\n", item)
 
-				remainingUtility := CalculateRemainingUtility(transaction, index+1)
+		// Duyệt qua tất cả các giao dịch trong `projectedItemTransactionMap`
+		for _, transactions := range projectedItemTransactionMap {
+			for _, transaction := range transactions {
+				// Kiểm tra nếu transaction chứa tất cả các item trong X và item hiện tại
+				if ContainsAllItems(transaction, X) && ContainsItem(transaction, item) {
+					foundInAnyTransaction = true
 
-				totalRLU += utilityX + remainingUtility
+					// Tính toán các giá trị cần thiết
+					utilityX := CalculateUtilityForSet(transaction, X)
+					maxIndexX := FindLocationMaxIndexForSet(transaction, X)
+
+					remainingUtility := CalculateRemainingUtility(transaction, maxIndexX+1)
+
+					// Cộng tổng RLU tạm thời cho item hiện tại
+					totalRLU += utilityX + remainingUtility
+					// fmt.Printf("    Utility(X): %.2f, Remaining Utility: %.2f, RLU Tổng Tạm Thời: %.2f\n", utilityX, remainingUtility, totalRLU)
+				}
 			}
 		}
 
+		// Nếu item không có trong bất kỳ giao dịch nào của `projectedItemTransactionMap`, bỏ qua tính toán
+		if !foundInAnyTransaction {
+			// fmt.Printf("Item %d không có trong bất kỳ giao dịch nào của projectedItemTransactionMap.\n", item)
+			continue
+		}
+
+		// Cập nhật RLU cho item trong utilityArray
 		utilityArray.SetRLU(item, totalRLU)
+		// fmt.Printf("RLU(%d) = %.2f\n", item, totalRLU) // In tổng RLU cuối cùng cho item
 	}
 }
 
