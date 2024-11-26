@@ -1,0 +1,28 @@
+Itemset: [34 7 40 60 64], Utility: 365816.00
+Itemset: [40 5 60 64 34 7], Utility: 350398.00
+Itemset: [64 34 7 40 5 60 52], Utility: 350303.00
+Itemset: [60 52 58 64 34 7 40 5], Utility: 350597.00
+Itemset: [60 64 34 7 58 40 5], Utility: 350736.00
+Itemset: [58 34 7 40 62 60 64], Utility: 350180.00
+Itemset: [60 64 34 7 40 52], Utility: 365793.00
+Itemset: [40 52 60 64 34 7 58], Utility: 366053.00
+Itemset: [64 34 58 7 40 60], Utility: 366120.00
+Itemset: [34 7 60 40], Utility: 376506.00
+Itemset: [7 60 40 34 5], Utility: 357982.00
+Itemset: [7 60 40 34 5 52], Utility: 356957.00
+Itemset: [34 5 52 7 60 40 58], Utility: 357498.00
+Itemset: [7 60 40 34 5 58], Utility: 358572.00
+Itemset: [34 7 60 40 48], Utility: 353164.00
+Itemset: [7 60 40 48 34 52], Utility: 351498.00
+Itemset: [7 60 40 48 34 52 58], Utility: 351976.00
+Itemset: [40 48 58 34 7 60], Utility: 353691.00
+Itemset: [40 34 7 60 62], Utility: 360798.00
+Itemset: [62 52 40 34 7 60], Utility: 358976.00
+Itemset: [58 40 34 7 60 62 52], Utility: 359480.00
+Itemset: [7 60 62 40 34 58], Utility: 361315.00
+Itemset: [7 52 60 40 34], Utility: 375370.00
+Itemset: [40 34 7 52 60 58], Utility: 375852.00
+Itemset: [34 7 60 40 58], Utility: 377037.00
+
+Thời gian chạy thuật toán: 21.041793 giây
+Bộ nhớ sử dụng: 9661 KB

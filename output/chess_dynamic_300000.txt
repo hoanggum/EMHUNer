@@ -1,0 +1,591 @@
+Itemset: [34 7 60 31 40 64], Utility: 343450.00
+Itemset: [34 7 60 31 40 36 64], Utility: 320881.00
+Itemset: [72 64 34 7 60 31 40], Utility: 300356.00
+Itemset: [31 40 72 64 34 58 7 60], Utility: 300936.00
+Itemset: [64 34 7 60 31 42 40], Utility: 329681.00
+Itemset: [64 34 7 60 31 42 36 40], Utility: 308168.00
+Itemset: [40 64 34 7 60 31 42 5], Utility: 315046.00
+Itemset: [40 60 64 34 7 31 62 42 5], Utility: 300286.00
+Itemset: [31 62 42 5 60 58 64 34 7 40], Utility: 300803.00
+Itemset: [42 5 64 60 31 52 40 34 7], Utility: 313689.00
+Itemset: [34 7 60 31 52 42 5 64 40 58], Utility: 314241.00
+Itemset: [5 34 7 60 31 42 40 64 58], Utility: 315606.00
+Itemset: [34 7 60 31 42 40 48 64], Utility: 307850.00
+Itemset: [7 60 31 40 48 34 52 42 64], Utility: 305960.00
+Itemset: [31 64 34 52 48 60 42 58 40 7], Utility: 306513.00
+Itemset: [34 58 7 60 64 48 31 42 40], Utility: 308411.00
+Itemset: [40 64 34 62 7 60 31 42], Utility: 313860.00
+Itemset: [31 40 62 7 64 34 52 60 42], Utility: 311565.00
+Itemset: [64 52 7 40 42 60 31 62 58 34], Utility: 312056.00
+Itemset: [7 58 34 62 60 31 42 40 64], Utility: 314359.00
+Itemset: [31 52 42 40 64 34 7 60], Utility: 328078.00
+Itemset: [52 42 64 34 36 40 7 60 31], Utility: 306965.00
+Itemset: [64 34 7 60 52 42 40 31 58], Utility: 328606.00
+Itemset: [58 40 31 7 36 60 52 42 64 34], Utility: 307546.00
+Itemset: [34 7 60 31 58 42 40 64], Utility: 330217.00
+Itemset: [40 34 60 58 36 42 64 7 31], Utility: 308757.00
+Itemset: [64 34 7 60 31 40 25], Utility: 301523.00
+Itemset: [40 25 52 58 64 34 7 31 60], Utility: 300391.00
+Itemset: [34 7 60 31 40 25 58 64], Utility: 302025.00
+Itemset: [40 64 34 5 7 60 31], Utility: 328555.00
+Itemset: [5 36 7 60 31 40 64 34], Utility: 306383.00
+Itemset: [40 64 34 5 48 7 60 31], Utility: 304669.00
+Itemset: [60 40 64 52 31 34 5 48 7], Utility: 303414.00
+Itemset: [5 58 40 64 31 34 48 7 52 60], Utility: 303964.00
+Itemset: [60 40 58 7 48 31 64 34 5], Utility: 305227.00
+Itemset: [40 64 34 5 7 60 31 62], Utility: 313681.00
+Itemset: [64 7 31 40 52 34 5 60 62], Utility: 312093.00
+Itemset: [40 34 5 60 64 7 31 52 62 58], Utility: 312609.00
+Itemset: [64 5 31 62 40 34 7 60 58], Utility: 314205.00
+Itemset: [31 40 64 34 5 52 7 60], Utility: 327467.00
+Itemset: [36 5 7 31 64 34 52 60 40], Utility: 305677.00
+Itemset: [60 5 52 58 31 40 64 34 7], Utility: 328017.00
+Itemset: [52 31 40 58 60 5 36 34 7 64], Utility: 306269.00
+Itemset: [58 64 34 5 7 60 31 40], Utility: 329113.00
+Itemset: [40 58 34 7 31 64 5 60 36], Utility: 306983.00
+Itemset: [7 60 48 31 40 64 34], Utility: 319766.00
+Itemset: [60 48 31 40 64 36 34 7], Utility: 306283.00
+Itemset: [60 48 31 40 62 64 34 7], Utility: 304196.00
+Itemset: [48 31 40 62 64 34 7 60 52], Utility: 302039.00
+Itemset: [60 52 40 64 7 48 31 62 58 34], Utility: 302534.00
+Itemset: [7 48 31 62 64 34 60 40 58], Utility: 304699.00
+Itemset: [40 64 52 34 7 60 48 31], Utility: 318337.00
+Itemset: [64 36 52 7 40 31 34 60 48], Utility: 304816.00
+Itemset: [31 40 58 48 34 7 60 64 52], Utility: 318860.00
+Itemset: [60 36 31 58 52 34 7 64 48 40], Utility: 305327.00
+Itemset: [40 64 34 7 60 58 48 31], Utility: 320297.00
+Itemset: [40 60 58 48 36 64 34 7 31], Utility: 306802.00
+Itemset: [60 31 40 62 64 34 7], Utility: 327507.00
+Itemset: [34 7 60 31 40 62 36 64], Utility: 305409.00
+Itemset: [60 31 40 62 64 34 52 7], Utility: 325517.00
+Itemset: [7 60 62 64 52 31 40 34 36], Utility: 303801.00
+Itemset: [58 34 7 31 40 62 64 52 60], Utility: 326012.00
+Itemset: [7 31 60 36 34 58 64 52 40 62], Utility: 304338.00
+Itemset: [64 34 7 60 31 40 62 58], Utility: 328010.00
+Itemset: [31 62 64 34 36 60 40 58 7], Utility: 305954.00
+Itemset: [7 60 31 40 64 52 34], Utility: 342188.00
+Itemset: [64 52 34 36 7 60 31 40], Utility: 320001.00
+Itemset: [7 58 60 31 40 64 52 34], Utility: 342711.00
+Itemset: [52 34 7 58 64 60 31 40 36], Utility: 320566.00
+Itemset: [7 60 58 31 40 64 34], Utility: 343981.00
+Itemset: [58 31 36 40 64 34 7 60], Utility: 321454.00
+Itemset: [64 34 7 40 31], Utility: 301199.00
+Itemset: [40 31 52 58 64 34 7], Utility: 300333.00
+Itemset: [40 31 64 34 7 58], Utility: 301713.00
+Itemset: [31 64 34 60 40], Utility: 321787.00
+Itemset: [42 31 64 34 60 40], Utility: 309194.00
+Itemset: [42 31 52 64 34 60 40], Utility: 307402.00
+Itemset: [64 34 58 60 40 42 31 52], Utility: 307938.00
+Itemset: [34 60 40 42 31 58 64], Utility: 309738.00
+Itemset: [40 31 64 34 5 60], Utility: 307793.00
+Itemset: [52 64 34 5 60 40 31], Utility: 306600.00
+Itemset: [34 5 58 60 40 31 52 64], Utility: 307176.00
+Itemset: [40 31 58 64 34 5 60], Utility: 308377.00
+Itemset: [31 64 34 60 40 48], Utility: 300262.00
+Itemset: [58 40 48 31 64 34 60], Utility: 300808.00
+Itemset: [34 60 40 31 62 64], Utility: 307378.00
+Itemset: [62 64 34 60 52 40 31], Utility: 305193.00
+Itemset: [58 60 52 40 31 62 64 34], Utility: 305703.00
+Itemset: [31 62 64 34 60 40 58], Utility: 307896.00
+Itemset: [64 34 60 40 52 31], Utility: 320330.00
+Itemset: [40 52 58 31 64 34 60], Utility: 320868.00
+Itemset: [34 60 40 31 58 64], Utility: 322333.00
+Itemset: [40 31 58 64 34 60 36], Utility: 300471.00
+Itemset: [7 60 40 31 34], Utility: 340848.00
+Itemset: [36 60 40 31 34 7], Utility: 315797.00
+Itemset: [7 60 40 42 31 34], Utility: 307375.00
+Itemset: [60 52 40 42 31 34 7], Utility: 304906.00
+Itemset: [7 60 52 40 42 31 58 34], Utility: 305487.00
+Itemset: [60 40 42 58 31 34 7], Utility: 307968.00
+Itemset: [60 40 31 34 7 25 58], Utility: 300315.00
+Itemset: [5 7 60 40 31 34], Utility: 325042.00
+Itemset: [31 34 5 7 60 36 40], Utility: 300531.00
+Itemset: [34 5 7 60 40 31 62], Utility: 310989.00
+Itemset: [40 31 62 34 5 7 52 60], Utility: 308093.00
+Itemset: [5 7 34 58 52 60 40 31 62], Utility: 308633.00
+Itemset: [60 40 31 62 34 5 7 58], Utility: 311542.00
+Itemset: [5 7 60 52 40 31 34], Utility: 322520.00
+Itemset: [7 60 52 58 40 31 34 5], Utility: 323131.00
+Itemset: [5 7 60 40 31 34 58], Utility: 325666.00
+Itemset: [34 58 36 5 7 60 40 31], Utility: 301179.00
+Itemset: [60 40 31 34 7 48], Utility: 314897.00
+Itemset: [34 7 48 60 40 31 36], Utility: 300071.00
+Itemset: [7 52 48 60 40 31 34], Utility: 311440.00
+Itemset: [58 34 7 52 48 60 40 31], Utility: 312006.00
+Itemset: [31 34 7 48 58 60 40], Utility: 315476.00
+Itemset: [48 36 58 60 40 31 34 7], Utility: 300617.00
+Itemset: [34 7 60 40 62 31], Utility: 325139.00
+Itemset: [36 40 62 31 34 7 60], Utility: 300654.00
+Itemset: [62 31 34 7 52 60 40], Utility: 321688.00
+Itemset: [31 34 7 52 58 60 40 62], Utility: 322190.00
+Itemset: [58 62 31 34 7 60 40], Utility: 325654.00
+Itemset: [40 58 62 31 34 36 7 60], Utility: 301193.00
+Itemset: [40 31 34 7 52 60], Utility: 337969.00
+Itemset: [60 40 31 34 7 52 36], Utility: 313314.00
+Itemset: [31 34 7 52 60 58 40], Utility: 338544.00
+Itemset: [60 36 58 40 31 34 7 52], Utility: 313913.00
+Itemset: [31 34 7 60 40 58], Utility: 341436.00
+Itemset: [36 31 34 7 60 40 58], Utility: 316409.00
+Itemset: [40 31 34 60], Utility: 313302.00
+Itemset: [40 52 31 34 60], Utility: 310324.00
+Itemset: [34 60 40 52 31 58], Utility: 310907.00
+Itemset: [31 34 60 40 58], Utility: 313898.00
+Itemset: [7 17 64 34 40 60], Utility: 305094.00
+Itemset: [7 17 64 52 34 40 60], Utility: 305428.00
+Itemset: [40 60 7 17 64 52 58 34], Utility: 305605.00
+Itemset: [7 58 17 64 34 40 60], Utility: 305315.00
+Itemset: [40 7 17 34 60], Utility: 331716.00
+Itemset: [7 17 34 60 40 36], Utility: 305549.00
+Itemset: [7 17 34 60 40 5], Utility: 311362.00
+Itemset: [52 7 17 34 60 40 5], Utility: 310703.00
+Itemset: [40 5 52 7 17 34 58 60], Utility: 311145.00
+Itemset: [5 58 7 17 34 60 40], Utility: 311853.00
+Itemset: [60 40 7 48 17 34], Utility: 308888.00
+Itemset: [34 52 60 40 7 48 17], Utility: 307750.00
+Itemset: [60 58 40 7 48 17 34 52], Utility: 308144.00
+Itemset: [34 60 40 7 48 58 17], Utility: 309331.00
+Itemset: [62 17 34 60 40 7], Utility: 315029.00
+Itemset: [34 60 40 7 62 52 17], Utility: 313615.00
+Itemset: [17 34 60 40 7 58 62 52], Utility: 314036.00
+Itemset: [58 17 34 60 40 7 62], Utility: 315463.00
+Itemset: [7 17 34 52 60 40], Utility: 330946.00
+Itemset: [7 17 34 52 36 60 40], Utility: 305133.00
+Itemset: [60 40 7 17 34 52 58], Utility: 331329.00
+Itemset: [7 17 34 52 58 60 40 36], Utility: 305569.00
+Itemset: [60 40 58 7 17 34], Utility: 332148.00
+Itemset: [40 36 58 7 17 34 60], Utility: 306034.00
+Itemset: [17 34 60 40], Utility: 303615.00
+Itemset: [34 60 40 52 17], Utility: 302920.00
+Itemset: [34 60 40 58 52 17], Utility: 303404.00
+Itemset: [34 60 40 58 17], Utility: 304148.00
+Itemset: [7 60 40 64 34 44], Utility: 314026.00
+Itemset: [7 60 40 64 34 5 44], Utility: 302330.00
+Itemset: [52 34 5 44 7 60 40 64], Utility: 302155.00
+Itemset: [34 5 40 52 58 44 7 60 64], Utility: 302323.00
+Itemset: [58 64 34 5 44 7 60 40], Utility: 302542.00
+Itemset: [62 64 34 44 7 60 40], Utility: 302264.00
+Itemset: [40 62 52 64 34 44 7 60], Utility: 301697.00
+Itemset: [60 40 52 64 34 44 62 7 58], Utility: 301985.00
+Itemset: [34 44 7 60 40 62 58 64], Utility: 302560.00
+Itemset: [44 7 60 40 52 64 34], Utility: 314067.00
+Itemset: [52 64 58 34 44 7 60 40], Utility: 314238.00
+Itemset: [40 64 34 44 7 60 58], Utility: 314241.00
+Itemset: [44 34 7 60 40], Utility: 317044.00
+Itemset: [44 34 5 7 60 40], Utility: 304137.00
+Itemset: [40 44 34 52 5 7 60], Utility: 302781.00
+Itemset: [7 60 40 44 34 52 5 58], Utility: 303203.00
+Itemset: [60 40 58 44 34 5 7], Utility: 304608.00
+Itemset: [7 60 40 62 44 34], Utility: 305682.00
+Itemset: [44 34 7 60 40 62 52], Utility: 303859.00
+Itemset: [7 60 58 40 62 52 44 34], Utility: 304294.00
+Itemset: [44 34 58 7 60 40 62], Utility: 306130.00
+Itemset: [44 34 52 7 60 40], Utility: 315727.00
+Itemset: [7 58 60 40 44 34 52], Utility: 316127.00
+Itemset: [58 60 40 44 34 7], Utility: 317493.00
+Itemset: [60 40 64 34 7], Utility: 365816.00
+Itemset: [40 64 34 7 60 9], Utility: 306512.00
+Itemset: [34 7 60 40 66 64], Utility: 302870.00
+Itemset: [64 34 7 60 40 36], Utility: 340530.00
+Itemset: [64 34 7 60 40 29], Utility: 312228.00
+Itemset: [64 34 7 60 40 72], Utility: 301444.00
+Itemset: [52 64 34 7 60 40 72], Utility: 301102.00
+Itemset: [72 52 64 34 7 58 60 40], Utility: 301631.00
+Itemset: [58 64 34 7 60 40 72], Utility: 301973.00
+Itemset: [64 34 7 60 40 42], Utility: 345952.00
+Itemset: [42 64 34 36 7 60 40], Utility: 321901.00
+Itemset: [42 64 25 34 7 60 40], Utility: 306151.00
+Itemset: [34 52 7 60 40 42 64 25], Utility: 305453.00
+Itemset: [40 25 34 52 7 60 42 64 58], Utility: 305746.00
+Itemset: [34 7 60 40 58 42 64 25], Utility: 306488.00
+Itemset: [7 60 40 5 42 64 34], Utility: 330681.00
+Itemset: [7 60 36 40 5 42 64 34], Utility: 307125.00
+Itemset: [40 48 5 42 64 34 7 60], Utility: 310752.00
+Itemset: [34 40 48 42 7 52 60 5 64], Utility: 310053.00
+Itemset: [60 5 7 52 48 34 58 64 40 42], Utility: 310395.00
+Itemset: [5 42 7 60 40 48 64 58 34], Utility: 311138.00
+Itemset: [60 40 5 42 64 34 62 7], Utility: 315914.00
+Itemset: [64 34 62 60 52 5 42 7 40], Utility: 314930.00
+Itemset: [52 7 40 64 60 58 5 42 34 62], Utility: 315328.00
+Itemset: [42 64 60 40 5 58 34 62 7], Utility: 316320.00
+Itemset: [34 7 60 40 5 52 42 64], Utility: 330221.00
+Itemset: [40 5 42 34 36 60 52 64 7], Utility: 306969.00
+Itemset: [34 7 40 42 64 58 60 5 52], Utility: 330533.00
+Itemset: [7 40 60 5 34 52 42 64 58 36], Utility: 307361.00
+Itemset: [7 60 40 5 42 64 58 34], Utility: 331037.00
+Itemset: [5 42 64 58 40 34 7 60 36], Utility: 307561.00
+Itemset: [7 60 40 42 64 48 34], Utility: 326139.00
+Itemset: [42 64 48 34 36 7 60 40], Utility: 310553.00
+Itemset: [48 34 62 7 60 40 42 64], Utility: 310444.00
+Itemset: [40 42 64 62 7 52 60 48 34], Utility: 308963.00
+Itemset: [40 42 64 7 60 62 52 48 34 58], Utility: 309373.00
+Itemset: [62 7 64 48 34 58 60 40 42], Utility: 310862.00
+Itemset: [64 48 34 7 60 52 40 42], Utility: 325440.00
+Itemset: [60 48 34 7 36 52 40 42 64], Utility: 309774.00
+Itemset: [60 58 42 64 34 7 52 40 48], Utility: 325751.00
+Itemset: [58 40 48 52 42 36 34 7 64 60], Utility: 310089.00
+Itemset: [58 34 7 60 40 42 64 48], Utility: 326494.00
+Itemset: [42 64 58 34 36 60 48 7 40], Utility: 310912.00
+Itemset: [62 64 34 7 60 40 42], Utility: 329968.00
+Itemset: [60 40 42 62 64 36 34 7], Utility: 306476.00
+Itemset: [52 34 7 60 40 42 62 64], Utility: 328726.00
+Itemset: [7 36 34 64 52 60 40 42 62], Utility: 305538.00
+Itemset: [62 64 60 42 52 34 7 40 58], Utility: 329113.00
+Itemset: [34 7 40 42 52 58 64 60 62 36], Utility: 306003.00
+Itemset: [62 64 34 7 60 58 40 42], Utility: 330363.00
+Itemset: [36 34 7 40 42 62 64 60 58], Utility: 306949.00
+Itemset: [42 52 64 34 7 60 40], Utility: 345492.00
+Itemset: [36 60 40 42 52 64 34 7], Utility: 321745.00
+Itemset: [60 40 42 52 58 64 34 7], Utility: 345773.00
+Itemset: [7 52 36 40 42 58 64 34 60], Utility: 322106.00
+Itemset: [40 42 58 64 34 7 60], Utility: 346277.00
+Itemset: [58 64 34 7 36 60 40 42], Utility: 322306.00
+Itemset: [34 7 60 40 64 25], Utility: 324047.00
+Itemset: [64 25 34 7 36 60 40], Utility: 303135.00
+Itemset: [5 25 34 7 60 40 64], Utility: 310644.00
+Itemset: [7 60 40 64 5 25 34 52], Utility: 310293.00
+Itemset: [34 58 7 60 40 64 5 52 25], Utility: 310581.00
+Itemset: [25 34 7 60 40 64 5 58], Utility: 310976.00
+Itemset: [64 25 48 34 7 60 40], Utility: 309509.00
+Itemset: [40 64 25 48 34 7 52 60], Utility: 308829.00
+Itemset: [48 34 7 58 40 64 60 25 52], Utility: 309099.00
+Itemset: [48 58 34 7 60 40 64 25], Utility: 309823.00
+Itemset: [62 34 7 60 40 64 25], Utility: 309566.00
+Itemset: [60 40 64 25 52 62 34 7], Utility: 308763.00
+Itemset: [62 34 7 60 40 58 64 25 52], Utility: 309127.00
+Itemset: [64 25 62 34 7 60 40 58], Utility: 309938.00
+Itemset: [7 60 40 64 52 25 34], Utility: 323804.00
+Itemset: [34 7 60 40 64 52 36 25], Utility: 303082.00
+Itemset: [64 52 25 34 7 60 40 58], Utility: 324042.00
+Itemset: [25 7 60 58 36 64 52 34 40], Utility: 303409.00
+Itemset: [60 40 58 64 25 34 7], Utility: 324329.00
+Itemset: [58 64 36 25 34 7 60 40], Utility: 303506.00
+Itemset: [40 64 34 7 5 60], Utility: 350398.00
+Itemset: [40 64 34 7 5 60 36], Utility: 325570.00
+Itemset: [60 40 64 34 7 48 5], Utility: 328811.00
+Itemset: [48 5 60 36 40 64 34 7], Utility: 312956.00
+Itemset: [60 40 64 62 34 7 48 5], Utility: 314422.00
+Itemset: [7 48 62 34 5 60 40 64 52], Utility: 313648.00
+Itemset: [34 5 60 52 7 48 62 40 64 58], Utility: 314032.00
+Itemset: [40 7 48 58 60 64 62 34 5], Utility: 314814.00
+Itemset: [7 48 5 60 40 64 52 34], Utility: 328597.00
+Itemset: [64 34 7 48 5 52 60 40 36], Utility: 312608.00
+Itemset: [60 58 64 52 5 48 40 34 7], Utility: 328896.00
+Itemset: [7 52 64 5 60 58 36 40 34 48], Utility: 312909.00
+Itemset: [40 58 64 34 7 48 5 60], Utility: 329154.00
+Itemset: [60 58 7 48 36 40 64 34 5], Utility: 313301.00
+Itemset: [64 34 7 5 60 62 40], Utility: 335610.00
+Itemset: [36 64 34 7 5 60 62 40], Utility: 311293.00
+Itemset: [62 40 64 34 52 7 5 60], Utility: 334955.00
+Itemset: [64 34 7 60 62 40 52 5 36], Utility: 310924.00
+Itemset: [7 5 64 34 52 58 60 62 40], Utility: 335341.00
+Itemset: [7 64 34 52 58 60 36 5 62 40], Utility: 311377.00
+Itemset: [58 5 60 62 40 64 34 7], Utility: 336004.00
+Itemset: [34 58 7 5 60 62 36 40 64], Utility: 311754.00
+Itemset: [64 34 7 5 52 60 40], Utility: 350303.00
+Itemset: [36 40 64 34 7 5 52 60], Utility: 325761.00
+Itemset: [40 64 34 58 7 5 52 60], Utility: 350597.00
+Itemset: [7 5 52 60 64 34 40 58 36], Utility: 326124.00
+Itemset: [7 5 60 40 58 64 34], Utility: 350736.00
+Itemset: [36 60 40 58 64 34 7 5], Utility: 325977.00
+Itemset: [34 7 60 40 48 64], Utility: 344413.00
+Itemset: [36 48 64 34 7 60 40], Utility: 328025.00
+Itemset: [7 60 40 62 48 64 34], Utility: 328670.00
+Itemset: [7 36 60 40 62 48 64 34], Utility: 312873.00
+Itemset: [62 52 48 64 34 7 60 40], Utility: 327710.00
+Itemset: [48 64 34 60 62 52 36 7 40], Utility: 311779.00
+Itemset: [52 7 60 62 58 48 64 34 40], Utility: 328080.00
+Itemset: [58 64 34 7 62 48 40 52 60 36], Utility: 312149.00
+Itemset: [34 7 60 58 40 62 48 64], Utility: 329048.00
+Itemset: [60 48 36 34 7 58 40 62 64], Utility: 313251.00
+Itemset: [40 48 52 64 34 7 60], Utility: 344271.00
+Itemset: [60 40 36 48 52 64 34 7], Utility: 327749.00
+Itemset: [64 34 7 60 40 48 52 58], Utility: 344536.00
+Itemset: [7 36 48 40 52 58 64 34 60], Utility: 328016.00
+Itemset: [48 58 64 34 7 60 40], Utility: 344722.00
+Itemset: [40 48 58 36 64 34 7 60], Utility: 328336.00
+Itemset: [60 40 64 34 7 62], Utility: 349800.00
+Itemset: [40 64 34 7 62 36 60], Utility: 325076.00
+Itemset: [52 60 40 64 34 7 62], Utility: 348959.00
+Itemset: [34 7 36 62 52 60 40 64], Utility: 324521.00
+Itemset: [58 7 62 52 60 40 64 34], Utility: 349331.00
+Itemset: [34 52 40 58 7 62 60 36 64], Utility: 324960.00
+Itemset: [7 62 60 40 64 34 58], Utility: 350180.00
+Itemset: [58 7 62 60 40 64 34 36], Utility: 325523.00
+Itemset: [52 7 60 40 64 34], Utility: 365793.00
+Itemset: [7 60 9 40 64 34 52], Utility: 306619.00
+Itemset: [34 52 66 7 60 40 64], Utility: 302881.00
+Itemset: [36 64 34 52 7 60 40], Utility: 340793.00
+Itemset: [7 60 29 40 64 34 52], Utility: 312119.00
+Itemset: [58 64 34 52 7 60 40], Utility: 366053.00
+Itemset: [40 58 64 34 52 7 60 9], Utility: 306867.00
+Itemset: [7 60 40 58 66 64 34 52], Utility: 303189.00
+Itemset: [52 7 60 40 58 64 34 36], Utility: 341122.00
+Itemset: [34 52 29 7 60 40 58 64], Utility: 312399.00
+Itemset: [60 40 58 64 34 7], Utility: 366120.00
+Itemset: [34 7 60 40 58 9 64], Utility: 306804.00
+Itemset: [7 60 40 58 64 34 66], Utility: 303222.00
+Itemset: [64 34 7 60 40 58 36], Utility: 340903.00
+Itemset: [58 29 64 34 7 60 40], Utility: 312552.00
+Itemset: [7 40 64 34], Utility: 318906.00
+Itemset: [64 34 7 40 5], Utility: 305597.00
+Itemset: [7 40 5 52 64 34], Utility: 305416.00
+Itemset: [7 40 5 52 58 64 34], Utility: 305654.00
+Itemset: [5 64 58 34 7 40], Utility: 305879.00
+Itemset: [64 34 7 40 62], Utility: 305001.00
+Itemset: [7 40 62 64 34 52], Utility: 304074.00
+Itemset: [52 7 40 62 58 64 34], Utility: 304378.00
+Itemset: [7 40 62 58 64 34], Utility: 305313.00
+Itemset: [64 52 34 7 40], Utility: 318797.00
+Itemset: [40 64 52 34 7 58], Utility: 319001.00
+Itemset: [58 64 34 7 40], Utility: 319154.00
+Itemset: [34 60 64 40], Utility: 340307.00
+Itemset: [40 36 34 60 64], Utility: 315801.00
+Itemset: [64 42 40 34 60], Utility: 321702.00
+Itemset: [5 42 40 34 60 64], Utility: 307297.00
+Itemset: [42 40 34 60 64 5 52], Utility: 306672.00
+Itemset: [60 64 5 52 58 42 40 34], Utility: 307059.00
+Itemset: [42 40 34 60 64 5 58], Utility: 307728.00
+Itemset: [64 42 48 40 34 60], Utility: 303910.00
+Itemset: [60 64 52 42 48 40 34], Utility: 302932.00
+Itemset: [34 60 64 52 58 42 48 40], Utility: 303315.00
+Itemset: [42 58 48 40 34 60 64], Utility: 304337.00
+Itemset: [34 62 60 64 42 40], Utility: 307398.00
+Itemset: [40 34 62 60 64 52 42], Utility: 305877.00
+Itemset: [34 62 60 64 52 58 42 40], Utility: 306318.00
+Itemset: [64 42 58 40 34 62 60], Utility: 307847.00
+Itemset: [52 60 64 42 40 34], Utility: 320963.00
+Itemset: [34 58 52 60 64 42 40], Utility: 321316.00
+Itemset: [40 34 60 64 42 58], Utility: 322099.00
+Itemset: [34 60 64 25 40], Utility: 302866.00
+Itemset: [25 40 34 60 64 52], Utility: 302332.00
+Itemset: [60 64 52 25 40 34 58], Utility: 302638.00
+Itemset: [40 34 60 58 64 25], Utility: 303216.00
+Itemset: [34 60 64 40 5], Utility: 325757.00
+Itemset: [60 64 40 5 36 34], Utility: 301716.00
+Itemset: [34 60 64 40 5 48], Utility: 306443.00
+Itemset: [48 34 60 64 40 5 52], Utility: 306088.00
+Itemset: [34 60 64 40 5 52 48 58], Utility: 306468.00
+Itemset: [58 5 48 34 60 64 40], Utility: 306867.00
+Itemset: [40 5 62 34 60 64], Utility: 312495.00
+Itemset: [52 34 60 64 40 5 62], Utility: 311699.00
+Itemset: [40 5 58 62 52 34 60 64], Utility: 312148.00
+Itemset: [5 62 58 34 60 64 40], Utility: 312952.00
+Itemset: [34 60 64 40 5 52], Utility: 325521.00
+Itemset: [36 64 40 5 52 34 60], Utility: 301766.00
+Itemset: [64 40 58 5 52 34 60], Utility: 325896.00
+Itemset: [5 52 34 36 60 64 40 58], Utility: 302210.00
+Itemset: [58 34 60 64 40 5], Utility: 326176.00
+Itemset: [64 40 5 58 34 60 36], Utility: 302204.00
+Itemset: [34 60 64 40 48], Utility: 321086.00
+Itemset: [34 60 64 40 48 36], Utility: 304572.00
+Itemset: [60 64 40 48 62 34], Utility: 307048.00
+Itemset: [40 48 62 34 60 64 52], Utility: 305833.00
+Itemset: [60 64 52 40 58 48 62 34], Utility: 306263.00
+Itemset: [40 48 62 34 58 60 64], Utility: 307486.00
+Itemset: [52 40 48 34 60 64], Utility: 320689.00
+Itemset: [40 36 48 34 60 64 52], Utility: 304041.00
+Itemset: [58 60 64 52 40 48 34], Utility: 321032.00
+Itemset: [60 64 52 40 36 48 34 58], Utility: 304386.00
+Itemset: [48 58 34 60 64 40], Utility: 321473.00
+Itemset: [60 64 40 48 58 36 34], Utility: 304961.00
+Itemset: [34 60 64 40 62], Utility: 325996.00
+Itemset: [60 64 40 62 34 36], Utility: 302052.00
+Itemset: [64 40 62 34 60 52], Utility: 324900.00
+Itemset: [36 62 34 60 52 64 40], Utility: 301242.00
+Itemset: [60 52 64 40 62 34 58], Utility: 325332.00
+Itemset: [60 52 64 36 40 62 34 58], Utility: 301741.00
+Itemset: [64 40 62 58 34 60], Utility: 326436.00
+Itemset: [34 36 60 64 40 62 58], Utility: 302559.00
+Itemset: [64 40 52 34 60], Utility: 340029.00
+Itemset: [60 64 40 52 34 36], Utility: 315809.00
+Itemset: [60 64 40 52 58 34], Utility: 340367.00
+Itemset: [58 34 36 60 64 40 52], Utility: 316216.00
+Itemset: [40 58 34 60 64], Utility: 340689.00
+Itemset: [36 64 40 58 34 60], Utility: 316252.00
+Itemset: [60 34 7 40], Utility: 376506.00
+Itemset: [40 9 60 34 7], Utility: 311778.00
+Itemset: [7 40 66 60 34], Utility: 301038.00
+Itemset: [60 34 7 40 36], Utility: 348256.00
+Itemset: [34 7 40 29 60], Utility: 312246.00
+Itemset: [42 7 40 60 34], Utility: 324915.00
+Itemset: [34 42 7 40 60 5], Utility: 311197.00
+Itemset: [7 40 60 5 52 34 42], Utility: 310204.00
+Itemset: [5 58 52 34 42 7 40 60], Utility: 310575.00
+Itemset: [7 40 60 5 34 42 58], Utility: 311616.00
+Itemset: [42 7 40 60 34 48], Utility: 304921.00
+Itemset: [7 40 60 34 48 52 42], Utility: 303515.00
+Itemset: [52 58 42 7 40 60 34 48], Utility: 303903.00
+Itemset: [7 40 60 34 48 58 42], Utility: 305357.00
+Itemset: [7 40 60 34 42 62], Utility: 310673.00
+Itemset: [7 40 60 34 42 62 52], Utility: 308978.00
+Itemset: [7 40 60 34 42 62 52 58], Utility: 309390.00
+Itemset: [62 58 7 40 60 34 42], Utility: 311097.00
+Itemset: [42 52 7 40 60 34], Utility: 323976.00
+Itemset: [7 40 60 34 42 58 52], Utility: 324336.00
+Itemset: [58 7 40 60 34 42], Utility: 325323.00
+Itemset: [7 40 60 34 42 58 36], Utility: 300337.00
+Itemset: [34 25 7 40 60], Utility: 336555.00
+Itemset: [25 36 7 40 60 34], Utility: 313494.00
+Itemset: [60 34 25 5 7 40], Utility: 319959.00
+Itemset: [34 48 25 5 7 40 60], Utility: 305145.00
+Itemset: [34 48 25 5 7 52 40 60], Utility: 303257.00
+Itemset: [48 52 40 58 60 34 25 5 7], Utility: 303820.00
+Itemset: [34 58 48 25 5 7 40 60], Utility: 305763.00
+Itemset: [40 60 34 25 5 7 62], Utility: 307523.00
+Itemset: [40 60 34 25 5 52 7 62], Utility: 306169.00
+Itemset: [7 40 60 34 52 62 25 58 5], Utility: 306734.00
+Itemset: [34 25 5 7 62 40 60 58], Utility: 308107.00
+Itemset: [5 7 40 52 60 34 25], Utility: 318783.00
+Itemset: [60 34 25 5 7 40 52 58], Utility: 319319.00
+Itemset: [58 7 40 60 34 25 5], Utility: 320550.00
+Itemset: [25 7 48 40 60 34], Utility: 321804.00
+Itemset: [60 34 25 7 36 48 40], Utility: 305241.00
+Itemset: [25 7 48 40 62 60 34], Utility: 307282.00
+Itemset: [34 25 7 48 40 52 62 60], Utility: 304907.00
+Itemset: [62 60 25 7 34 48 40 52 58], Utility: 305429.00
+Itemset: [40 62 58 60 34 25 7 48], Utility: 307823.00
+Itemset: [7 48 52 40 60 34 25], Utility: 319835.00
+Itemset: [60 34 25 7 48 52 36 40], Utility: 303200.00
+Itemset: [60 58 34 25 7 48 52 40], Utility: 320323.00
+Itemset: [36 52 60 34 25 48 40 58 7], Utility: 303672.00
+Itemset: [7 48 58 40 60 34 25], Utility: 322347.00
+Itemset: [36 7 48 58 40 60 34 25], Utility: 305768.00
+Itemset: [25 7 40 60 34 62], Utility: 322338.00
+Itemset: [62 25 7 40 52 60 34], Utility: 320675.00
+Itemset: [58 52 60 34 62 25 7 40], Utility: 321177.00
+Itemset: [58 40 60 34 62 25 7], Utility: 322859.00
+Itemset: [40 60 36 34 62 25 7 58], Utility: 300492.00
+Itemset: [7 40 60 34 25 52], Utility: 335298.00
+Itemset: [7 40 60 34 25 52 36], Utility: 312351.00
+Itemset: [34 25 52 58 7 40 60], Utility: 335759.00
+Itemset: [7 40 60 34 25 36 52 58], Utility: 312890.00
+Itemset: [7 40 60 34 25 58], Utility: 337071.00
+Itemset: [36 58 7 40 60 34 25], Utility: 314088.00
+Itemset: [7 40 60 34 5], Utility: 357982.00
+Itemset: [36 40 60 34 5 7], Utility: 330484.00
+Itemset: [5 7 48 40 60 34], Utility: 334518.00
+Itemset: [34 5 7 48 40 36 60], Utility: 316717.00
+Itemset: [40 60 34 5 7 48 62], Utility: 320771.00
+Itemset: [5 36 7 48 62 40 60 34], Utility: 303580.00
+Itemset: [62 40 60 52 34 5 7 48], Utility: 318758.00
+Itemset: [62 36 52 5 7 48 40 60 34], Utility: 301393.00
+Itemset: [60 52 7 62 40 58 5 48 34], Utility: 319298.00
+Itemset: [5 48 34 62 40 36 58 7 60 52], Utility: 301912.00
+Itemset: [5 58 7 48 62 40 60 34], Utility: 321324.00
+Itemset: [62 40 60 34 58 7 36 48 5], Utility: 304112.00
+Itemset: [60 34 5 7 48 52 40], Utility: 332963.00
+Itemset: [7 48 52 36 40 60 34 5], Utility: 314988.00
+Itemset: [34 5 7 48 52 40 60 58], Utility: 333500.00
+Itemset: [7 48 60 58 34 5 52 40 36], Utility: 315506.00
+Itemset: [40 58 60 34 5 7 48], Utility: 335104.00
+Itemset: [34 5 36 7 48 40 58 60], Utility: 317284.00
+Itemset: [62 7 40 60 34 5], Utility: 344036.00
+Itemset: [7 40 36 60 34 5 62], Utility: 317138.00
+Itemset: [40 60 52 34 5 62 7], Utility: 342553.00
+Itemset: [34 36 5 62 7 40 60 52], Utility: 315955.00
+Itemset: [58 52 34 5 62 7 40 60], Utility: 343104.00
+Itemset: [34 62 40 58 36 52 5 7 60], Utility: 316555.00
+Itemset: [5 62 7 40 60 34 58], Utility: 344600.00
+Itemset: [58 5 62 7 40 60 36 34], Utility: 317751.00
+Itemset: [52 60 34 5 7 40], Utility: 356957.00
+Itemset: [40 52 60 34 5 7 36], Utility: 329759.00
+Itemset: [58 40 52 60 34 5 7], Utility: 357498.00
+Itemset: [52 60 34 5 7 36 58 40], Utility: 330351.00
+Itemset: [34 5 58 7 40 60], Utility: 358572.00
+Itemset: [7 40 60 34 5 58 36], Utility: 331125.00
+Itemset: [7 40 48 60 34], Utility: 353164.00
+Itemset: [34 7 40 48 36 60], Utility: 334554.00
+Itemset: [34 7 40 48 62 60], Utility: 337508.00
+Itemset: [60 34 7 36 40 48 62], Utility: 319584.00
+Itemset: [7 40 48 52 62 60 34], Utility: 335156.00
+Itemset: [52 36 62 60 34 7 40 48], Utility: 317058.00
+Itemset: [40 48 52 62 60 34 58 7], Utility: 335649.00
+Itemset: [34 62 60 36 58 7 40 48 52], Utility: 317530.00
+Itemset: [60 34 7 40 58 48 62], Utility: 338014.00
+Itemset: [34 7 40 58 36 48 62 60], Utility: 320069.00
+Itemset: [60 34 7 40 48 52], Utility: 351498.00
+Itemset: [36 52 60 34 7 40 48], Utility: 332714.00
+Itemset: [58 52 60 34 7 40 48], Utility: 351976.00
+Itemset: [60 34 36 7 40 48 58 52], Utility: 333173.00
+Itemset: [34 7 40 48 58 60], Utility: 353691.00
+Itemset: [40 48 58 60 34 7 36], Utility: 335062.00
+Itemset: [60 34 7 40 62], Utility: 360798.00
+Itemset: [60 34 36 7 40 62], Utility: 333224.00
+Itemset: [7 40 62 60 34 52], Utility: 358976.00
+Itemset: [62 60 34 52 36 7 40], Utility: 331702.00
+Itemset: [7 40 62 60 34 58 52], Utility: 359480.00
+Itemset: [7 40 62 36 60 34 58 52], Utility: 332255.00
+Itemset: [34 7 40 62 58 60], Utility: 361315.00
+Itemset: [7 40 62 58 36 60 34], Utility: 333790.00
+Itemset: [40 52 60 34 7], Utility: 375370.00
+Itemset: [40 52 60 34 7 9], Utility: 311192.00
+Itemset: [60 34 7 40 36 52], Utility: 347420.00
+Itemset: [52 60 29 34 7 40], Utility: 311208.00
+Itemset: [60 34 7 40 52 58], Utility: 375852.00
+Itemset: [58 60 34 7 40 9 52], Utility: 311651.00
+Itemset: [40 52 58 66 60 34 7], Utility: 300480.00
+Itemset: [58 36 60 34 7 40 52], Utility: 347953.00
+Itemset: [58 60 34 7 29 40 52], Utility: 311710.00
+Itemset: [7 40 58 60 34], Utility: 377037.00
+Itemset: [60 34 7 9 40 58], Utility: 312285.00
+Itemset: [60 34 7 66 40 58], Utility: 301573.00
+Itemset: [40 58 60 34 7 36], Utility: 348838.00
+Itemset: [34 7 40 58 60 29], Utility: 312797.00
+Itemset: [7 34 40], Utility: 318140.00
+Itemset: [7 34 40 5], Utility: 302713.00
+Itemset: [34 40 52 5 7], Utility: 301766.00
+Itemset: [7 34 40 52 58 5], Utility: 302251.00
+Itemset: [7 58 34 40 5], Utility: 303247.00
+Itemset: [62 40 7 34], Utility: 304867.00
+Itemset: [34 62 52 40 7], Utility: 303123.00
+Itemset: [7 34 62 52 40 58], Utility: 303559.00
+Itemset: [62 40 7 34 58], Utility: 305316.00
+Itemset: [52 7 34 40], Utility: 317082.00
+Itemset: [7 34 40 52 58], Utility: 317508.00
+Itemset: [58 7 34 40], Utility: 318615.00
+Itemset: [34 60 40], Utility: 341659.00
+Itemset: [34 60 40 36], Utility: 314460.00
+Itemset: [25 34 60 40], Utility: 306574.00
+Itemset: [60 40 25 52 34], Utility: 305110.00
+Itemset: [34 60 40 25 52 58], Utility: 305639.00
+Itemset: [40 25 58 34 60], Utility: 307158.00
+Itemset: [34 60 40 5], Utility: 324915.00
+Itemset: [40 5 34 60 48], Utility: 304137.00
+Itemset: [40 5 34 60 52 48], Utility: 302543.00
+Itemset: [52 48 40 58 5 34 60], Utility: 303161.00
+Itemset: [5 58 34 60 48 40], Utility: 304804.00
+Itemset: [62 34 60 40 5], Utility: 312593.00
+Itemset: [60 40 5 62 52 34], Utility: 311071.00
+Itemset: [62 52 58 34 60 40 5], Utility: 311685.00
+Itemset: [40 5 62 34 60 58], Utility: 313220.00
+Itemset: [34 60 40 5 52], Utility: 323851.00
+Itemset: [34 60 40 5 52 58], Utility: 324473.00
+Itemset: [34 60 40 5 58], Utility: 325586.00
+Itemset: [34 60 40 48], Utility: 320912.00
+Itemset: [34 60 40 48 36], Utility: 302201.00
+Itemset: [34 62 60 40 48], Utility: 307173.00
+Itemset: [40 48 34 62 52 60], Utility: 304668.00
+Itemset: [58 60 40 48 34 62 52], Utility: 305221.00
+Itemset: [62 60 40 58 48 34], Utility: 307739.00
+Itemset: [60 52 40 48 34], Utility: 319093.00
+Itemset: [48 34 60 52 36 40], Utility: 300208.00
+Itemset: [40 48 34 60 58 52], Utility: 319649.00
+Itemset: [58 52 40 48 36 34 60], Utility: 300745.00
+Itemset: [40 48 58 34 60], Utility: 321517.00
+Itemset: [60 40 48 58 36 34], Utility: 302787.00
+Itemset: [34 62 60 40], Utility: 327868.00
+Itemset: [62 60 40 34 36], Utility: 301345.00
+Itemset: [60 40 52 34 62], Utility: 325893.00
+Itemset: [62 60 40 52 58 34], Utility: 326457.00
+Itemset: [62 60 40 52 58 34 36], Utility: 300283.00
+Itemset: [34 62 58 60 40], Utility: 328445.00
+Itemset: [40 34 62 36 58 60], Utility: 301971.00
+Itemset: [60 40 34 52], Utility: 340370.00
+Itemset: [40 34 52 60 36], Utility: 313471.00
+Itemset: [52 58 60 40 34], Utility: 340930.00
+Itemset: [34 52 58 36 60 40], Utility: 314082.00
+Itemset: [34 60 40 58], Utility: 342268.00
+Itemset: [36 34 60 40 58], Utility: 315120.00
+
+Thời gian chạy thuật toán: 178.771070 giây
+Bộ nhớ sử dụng: 11532 KB
