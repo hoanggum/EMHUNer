@@ -35,7 +35,6 @@ func (s *SearchAlgorithms) Search(eta []int, X map[int]bool, itemTransactionMap 
 
 		// Tạo projectedItemTransactionMap và tính utility của Beta trong cùng một bước
 		projectedItemTransactionMap, utilityBeta := s.createProjectedItemTransactionMapAndCalculateUtility(itemTransactionMap, s.ItemList)
-		s.printProjectedDatabase(projectedItemTransactionMap)
 		if utilityBeta >= minU {
 			fmt.Printf("U(%d) = %.2f >= %.2f HUI Found: %v\n", item, utilityBeta, minU, s.Beta)
 			s.HighUtilityItemsets = append(s.HighUtilityItemsets, models.NewHighUtilityItemset(s.ItemList, utilityBeta))
@@ -61,7 +60,6 @@ func (s *SearchAlgorithms) Search(eta []int, X map[int]bool, itemTransactionMap 
 			if i > indexOf(secondary, item) {
 				rsu := s.UtilityArray.GetRSU(secItem)
 				rlu := s.UtilityArray.GetRLU(secItem)
-				fmt.Printf("RSU(%d): %.2f, RLU(%d): %.2f\n", secItem, rsu, secItem, rlu) // In giá trị RSU và RLU
 
 				if rsu >= minU {
 					s.FilteredPrimary = append(s.FilteredPrimary, secItem)
@@ -71,10 +69,6 @@ func (s *SearchAlgorithms) Search(eta []int, X map[int]bool, itemTransactionMap 
 				}
 			}
 		}
-
-		// fmt.Printf("Beta= %v\n", s.Beta)
-		// fmt.Printf("Primary%v = %v\n", s.ItemList, s.FilteredPrimary)
-		// fmt.Printf("Secondary%v = %v\n", s.ItemList, s.FilteredSecondary)
 
 		// Đệ quy gọi lại Search với `projectedItemTransactionMap` đã thu hẹp
 		s.Search(eta, s.Beta, projectedItemTransactionMap, s.FilteredPrimary, s.FilteredSecondary, minU)
@@ -94,7 +88,6 @@ func (s *SearchAlgorithms) SearchN(eta []int, beta map[int]bool, itemTransaction
 
 		// Tạo projectedItemTransactionMap và tính utility của betaNew trong cùng một bước
 		projectedDBNew, utilityBetaNew := s.createProjectedItemTransactionMapAndCalculateUtility(itemTransactionMap, itemList)
-		s.printProjectedDatabase(projectedDBNew)
 
 		if utilityBetaNew >= minU {
 			fmt.Printf("U(%d) = %.2f >= %.2f HUI Found: %v\n", item, utilityBetaNew, minU, betaNew)
