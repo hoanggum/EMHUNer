@@ -13,8 +13,8 @@ import (
 )
 
 func main() {
-	fileName := "data/mushroom.txt"
-	minUtility := 90000.0
+	fileName := "data/BMS.txt"
+	minUtility := 2000000.0
 
 	// Đo thời gian bắt đầu
 	startTime := time.Now()
@@ -45,7 +45,7 @@ func main() {
 	fmt.Printf("Bộ nhớ sử dụng: %d KB\n", allocatedMemory)
 
 	fmt.Println("\nFinished executing EMHUN algorithm.")
-	outputFileName := "output/mushroom_90000.txt"
+	outputFileName := "output/BMS_2000000.txt"
 	err = writeResultsToFile(emhun, outputFileName, elapsedTime, allocatedMemory)
 	if err != nil {
 		fmt.Println("Error writing results:", err)

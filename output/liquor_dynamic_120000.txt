@@ -1,0 +1,100 @@
+Itemset: [989291 987514], Utility: 161898.96
+Itemset: [989291 987514 936600], Utility: 126783.66
+Itemset: [987514], Utility: 129234.00
+Itemset: [27027 27479], Utility: 156095.16
+Itemset: [27027 27479 37642], Utility: 186348.44
+Itemset: [27027 27479 37642 37640], Utility: 162565.63
+Itemset: [31990 27027 27479 37642 37640], Utility: 154248.13
+Itemset: [27027 27479 37642 31990], Utility: 171950.66
+Itemset: [27027 27479 37640], Utility: 133286.98
+Itemset: [27027 27479 37640 31990], Utility: 124882.66
+Itemset: [27027 27479 31990], Utility: 141418.92
+Itemset: [27479 37642], Utility: 134006.69
+Itemset: [962094 936600], Utility: 277352.10
+Itemset: [38177], Utility: 120537.06
+Itemset: [936600], Utility: 282536.10
+Itemset: [19068], Utility: 126380.95
+Itemset: [64870], Utility: 139187.70
+Itemset: [73055], Utility: 140896.00
+Itemset: [88296], Utility: 179683.55
+Itemset: [34820], Utility: 127641.11
+Itemset: [73050], Utility: 144887.50
+Itemset: [11297], Utility: 237619.26
+Itemset: [68036], Utility: 206748.70
+Itemset: [10807], Utility: 225967.48
+Itemset: [52596], Utility: 122053.04
+Itemset: [34433], Utility: 267403.28
+Itemset: [43128], Utility: 182704.10
+Itemset: [64864], Utility: 249508.83
+Itemset: [58838], Utility: 148536.44
+Itemset: [89196], Utility: 273583.57
+Itemset: [43336 89196], Utility: 126077.88
+Itemset: [43126], Utility: 234466.73
+Itemset: [43126 43336], Utility: 140530.31
+Itemset: [45278], Utility: 143812.52
+Itemset: [43334], Utility: 262957.64
+Itemset: [11774 43334], Utility: 122929.76
+Itemset: [43334 43336], Utility: 141269.97
+Itemset: [41693], Utility: 199779.74
+Itemset: [41693 43336], Utility: 129184.58
+Itemset: [43026], Utility: 218405.97
+Itemset: [43026 43336], Utility: 140665.58
+Itemset: [43026 35918], Utility: 128446.28
+Itemset: [36305], Utility: 233562.19
+Itemset: [36305 43336], Utility: 135152.96
+Itemset: [36308 36305], Utility: 152724.94
+Itemset: [25608], Utility: 277318.88
+Itemset: [11774], Utility: 302555.98
+Itemset: [36306 11774], Utility: 133675.95
+Itemset: [43336 11774], Utility: 134280.43
+Itemset: [11774 35918], Utility: 157685.52
+Itemset: [34006], Utility: 508844.29
+Itemset: [34006 27102], Utility: 122023.65
+Itemset: [34006 64866], Utility: 150410.52
+Itemset: [34006 37996], Utility: 184980.04
+Itemset: [34006 36306], Utility: 157868.86
+Itemset: [34006 43336], Utility: 215065.42
+Itemset: [34006 35918], Utility: 135854.68
+Itemset: [34006 36308], Utility: 192184.00
+Itemset: [27102], Utility: 626038.25
+Itemset: [27102 37996], Utility: 154408.45
+Itemset: [27102 36306], Utility: 167494.01
+Itemset: [43336 27102], Utility: 209921.92
+Itemset: [27102 35918], Utility: 171470.78
+Itemset: [27102 11776], Utility: 142086.87
+Itemset: [27102 36308], Utility: 228662.65
+Itemset: [64866], Utility: 575289.14
+Itemset: [37996 64866], Utility: 191006.37
+Itemset: [64866 36306], Utility: 236191.29
+Itemset: [36306 36308 64866], Utility: 150300.39
+Itemset: [64866 43336], Utility: 272468.40
+Itemset: [64866 43336 36308], Utility: 137770.72
+Itemset: [64866 35918], Utility: 154806.38
+Itemset: [11776 64866], Utility: 163453.69
+Itemset: [64866 36308], Utility: 247710.27
+Itemset: [37996], Utility: 520346.59
+Itemset: [37996 36306], Utility: 205941.70
+Itemset: [37996 36306 36308], Utility: 133776.78
+Itemset: [43336 37996], Utility: 303323.40
+Itemset: [37996 43336 36308], Utility: 130994.40
+Itemset: [37996 35918], Utility: 178031.05
+Itemset: [37996 11776], Utility: 148379.24
+Itemset: [37996 36308], Utility: 217851.71
+Itemset: [36306], Utility: 394340.33
+Itemset: [36306 43336], Utility: 298003.35
+Itemset: [43336 36306 11776], Utility: 136632.18
+Itemset: [43336 36308 36306], Utility: 191515.96
+Itemset: [36306 11776], Utility: 167306.58
+Itemset: [36306 36308], Utility: 233820.70
+Itemset: [43336], Utility: 791448.53
+Itemset: [43336 35918], Utility: 254868.12
+Itemset: [11776 43336], Utility: 238961.23
+Itemset: [43336 36308], Utility: 306789.02
+Itemset: [35918], Utility: 617588.67
+Itemset: [35918 35926], Utility: 157220.20
+Itemset: [35918 35916], Utility: 131341.00
+Itemset: [35918 36904], Utility: 137832.82
+Itemset: [35918 11776], Utility: 194594.46
+
+Thời gian chạy thuật toán: 289.012945 giây
+Bộ nhớ sử dụng: 35045 KB
