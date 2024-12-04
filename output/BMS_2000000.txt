@@ -1,0 +1,8 @@
+Itemset: [317], Utility: 2010338.00
+Itemset: [306], Utility: 2117403.00
+Itemset: [112], Utility: 3400991.00
+Itemset: [315], Utility: 2030898.00
+Itemset: [168], Utility: 7579680.00
+
+Thời gian chạy thuật toán: 1.364502 giây
+Bộ nhớ sử dụng: 10449 KB
